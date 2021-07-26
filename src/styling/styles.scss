@@ -28,28 +28,30 @@ body {
   }
 }
 
-#navbar {
-  background-color: $primary-color;
-  width: 99%;
-  padding: 0.5em;
-  display: block;
-}
-
-#navbar ul {
-  float: right;
-}
-
-#navbar li {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  margin: 0.5em 1em;
-  font-size: 2em;
-}
-
-#navbar a {
-  color: darkslategray;
-  font-weight: 700;
+@media only screen and (min-width: 768px) {
+  #navbar {
+    background-color: $primary-color;
+    width: 99%;
+    padding: 0.5em;
+    display: block;
+  }
+  
+  #navbar ul {
+    float: right;
+  }
+  
+  #navbar li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5em 1em;
+    font-size: 2em;
+  }
+  
+  #navbar a {
+    color: darkslategray;
+    font-weight: 700;
+  }
 }
 
 #mascot {
