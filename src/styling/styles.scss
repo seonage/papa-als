@@ -7,19 +7,28 @@ body {
   background-image: url("../images/background.jpg");
 }
 
-#navbar {
-  background-color: $primary-color;
-  width: 99%;
-  padding: 0.5em;
-  display: block;
-}
-
 #headerlogo {
   width: 20%;
   padding: 1em;
   display: inline-block;
 }
 
+#mobile-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 959px) {
+  #mobile-menu {
+    font-size: 3em;
+  }
+}
+
+#navbar {
+  background-color: $primary-color;
+  width: 99%;
+  padding: 0.5em;
+  display: block;
+}
 
 #navbar ul {
   float: right;

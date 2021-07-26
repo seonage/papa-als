@@ -14,6 +14,7 @@ const Navbar = () => {
           <li><Link to="/">Location</Link></li>
           <li><Link to="/">About Us</Link></li>
         </ul>
+      <div id="mobile-menu">Hello</div>
     </nav>
     )
 }
