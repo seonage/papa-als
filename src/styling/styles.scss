@@ -20,9 +20,8 @@ body {
 @media only screen and (max-width: 480px) {
   #mobile-menu {
     display: block;
-    font-size: 3em;
     background-color: $primary-color;
-    height: 40%;
+    height: 2em;
   }
 
   #navbar {
