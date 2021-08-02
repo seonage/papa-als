@@ -20,8 +20,9 @@ body {
   }
 
   #mascot {
-    min-width: 300%;
-    min-height: 300%;
+    width: auto;
+    max-width: 100%;
+    height: auto;
     padding: 1em;
     display: block;
     margin-left: auto;
