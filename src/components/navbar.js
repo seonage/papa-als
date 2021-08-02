@@ -16,8 +16,7 @@ const Navbar = () => {
               <li><Link to="/">About Us</Link></li>
           </ul>
       </nav>
-      <div id="mobile-menu">
-        <div id="headerlogo"><StaticImage alt="" src="../images/papaals.png"/></div>
+      <div id="mobile-menu"></div>
       </div>
     </div>
     )
