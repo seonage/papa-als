@@ -8,7 +8,7 @@ body {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   #mobile-menu {
     display: block;
     background-color: $primary-color;
@@ -31,7 +31,7 @@ body {
 
 }
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   #navbar {
     background-color: $primary-color;
     width: 99%;
@@ -65,7 +65,7 @@ body {
     color: darkslategray;
     font-weight: 700;
   }
-}
+}*/
 
 #mascot {
   max-width: 30%;
