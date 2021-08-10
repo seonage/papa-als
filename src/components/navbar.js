@@ -1,10 +1,12 @@
-import * as React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from "gatsby-plugin-image"
 import "../styling/styles.scss"
 
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] =useState(false);
+
     return (
     <div>
       <nav id="navbar">
@@ -17,7 +19,9 @@ const Navbar = () => {
           </ul>
       </nav>
       <div id="mobile-menu">
-        
+        {menuOpen ?
+        (<div id="toggleMenuOpen" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>) : 
+        (<div id="toggleMenuClose" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>)}
       </div>
     </div>
     )
