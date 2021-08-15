@@ -20,7 +20,17 @@ const Navbar = () => {
       </nav>
       <div id="mobile-menu">
         {menuOpen ?
-        (<div id="toggleMenuOpen" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>) : 
+        (<div id="toggleMenuOpen" onClick={() => setMenuOpen(!menuOpen)}>
+          <div id="menuIcon">&#9776;</div>
+          <div id="dropDownMenu">
+            <ul>
+              <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
+              <li><Link to="/">Menu</Link></li>
+              <li><Link to="/">Location</Link></li>
+              <li><Link to="/">About Us</Link></li>
+            </ul>
+          </div>
+        </div>) : 
         (<div id="toggleMenuClose" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>)}
       </div>
     </div>

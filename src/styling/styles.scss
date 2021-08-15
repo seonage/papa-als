@@ -275,11 +275,21 @@ a:hover{
     padding: 0em 0.25em;
   }
 
-  #toggleMenuOpen{
+  #toggleMenuOpen {
     float: right;
-    background-color: gray;
+    background-color: $secondary-color;
     font-size: 300%;
     padding: 0em 0.25em;
+    transition: all 200ms ease-in;
+  }
+
+  #menuIcon {
+    float:right;
+  }
+
+  #dropDownMenu {
+    background-color: $secondary-color;
+    float: right;
   }
 
   #navbar {
