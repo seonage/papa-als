@@ -20,8 +20,8 @@ const Navbar = () => {
       </nav>
       <div id="mobile-menu">
         {menuOpen ?
-        (<div id="toggleMenuOpen" onClick={() => setMenuOpen(!menuOpen)}>
-          <div id="menuIcon">&#9776;</div>
+        (<div id="toggleMenuOpen">
+          <div id="menuIconOpen" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
           <div id="dropDownMenu">
             <ul>
               <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
@@ -31,7 +31,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>) : 
-        (<div id="toggleMenuClose" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>)}
+        (<div id="toggleMenuClose">
+          <div id="menuIconClose" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
+        </div>)}
       </div>
     </div>
     )
