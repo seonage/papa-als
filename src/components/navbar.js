@@ -1,11 +1,22 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'gatsby'
-import { StaticImage } from "gatsby-plugin-image"
+import { getLowResolutionImageURL, StaticImage } from "gatsby-plugin-image"
 import "../styling/styles.scss"
 
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] =useState(false);
+
+    useEffect( () => {
+      var menu = document.getElementById('dropDownMenu');
+
+      if (menuOpen == true) {
+        menu.style.height = "6em";
+      }
+      else {
+        menu.style.height = "0em";
+      }
+    })   
 
     return (
     <div>
@@ -19,24 +30,19 @@ const Navbar = () => {
           </ul>
       </nav>
       <div id="mobile-menu">
-        {menuOpen ?
-        (<div id="toggleMenuOpen">
+        <div id="toggleMenuOpen"> 
           <div id="menuIconOpen" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
-          <div id="dropDownMenu">
-            <ul>
-              <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
-              <li><Link to="/">Menu</Link></li>
-              <li><Link to="/">Location</Link></li>
-              <li><Link to="/">About Us</Link></li>
-            </ul>
+            <div id="dropDownMenu">
+              <ul>
+                <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
+                <li><Link to="/">Menu</Link></li>
+                <li><Link to="/">Location</Link></li>
+                <li><Link to="/">About Us</Link></li>
+              </ul>
+            </div>
           </div>
-        </div>) : 
-        (<div id="toggleMenuClose">
-          <div id="menuIconClose" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
-        </div>)}
+        </div>
       </div>
-    </div>
-    )
-}
+    )}
 
 export default Navbar;
