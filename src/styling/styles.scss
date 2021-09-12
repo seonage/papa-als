@@ -283,14 +283,8 @@ a:hover{
 
   #menuIconOpen {
     float: right;
-    background-color: gray;
     padding: 0em 0.25em;
-    transition: background-color .4s ease;
-  }
-
-  #menuIconClose {
-    float: right;
-    padding: 0em 0.25em;
+    background-color: white;
   }
 
   #dropDownMenu {

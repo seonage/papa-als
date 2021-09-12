@@ -9,12 +9,15 @@ const Navbar = () => {
 
     useEffect( () => {
       var menu = document.getElementById('dropDownMenu');
+      var toggleMenuIcon = document.getElementById('menuIconOpen');
 
-      if (menuOpen == true) {
+      if (menuOpen === true) {
         menu.style.height = "6em";
+        toggleMenuIcon.style.backgroundColor = "gray";
       }
       else {
         menu.style.height = "0em";
+        toggleMenuIcon.style.backgroundColor = "white"
       }
     })   
 
