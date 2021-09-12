@@ -289,12 +289,19 @@ a:hover{
 
   #dropDownMenu {
     background-color: $secondary-color;
+    font-size: 0.5em;
     position: absolute;
     overflow: hidden;
-    top: 1.5em;
+    top: 3em;
     right: 0.4em;
+    padding-right: 1em;
     z-index: 1;
     transition: height .4s ease;
+  }
+
+  #dropDownMenu ul li {
+    font-size: 1em;
+    padding: 0.5em;
   }
 
   #navbar {
