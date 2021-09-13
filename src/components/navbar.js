@@ -12,7 +12,7 @@ const Navbar = () => {
       var toggleMenuIcon = document.getElementById('menuIconOpen');
 
       if (menuOpen === true) {
-        menu.style.height = "10em";
+        menu.style.height = "14em";
         toggleMenuIcon.style.backgroundColor = "gray";
       }
       else {
