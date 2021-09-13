@@ -300,9 +300,19 @@ a:hover{
   }
 
   #dropDownMenu ul li {
-    font-size: 1em;
-    padding: 0.5em;
     list-style-type:none;
+    margin: 0.5em;
+  }
+
+  #dropDownMenu ul li a {
+    font-size: 1em;
+    font-family: cursive;
+    padding: 0.5em;
+    color: black;
+  }
+
+  #dropDownMenu ul li a:visited {
+    color: white;
   }
 
   #navbar {
