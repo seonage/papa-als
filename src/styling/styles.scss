@@ -465,14 +465,13 @@ a:hover{
     float: right;
     background-color: white;
     border-radius: 0.2em;
-    //padding: 0.1em;
     color: $secondary-color;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 0.5em;
-    left: 0.2em;
+    right: 2em;
   }
 
 }

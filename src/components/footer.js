@@ -17,7 +17,7 @@ const Footer = () => {
             </a>
         </div>
         <div id ="footertext">
-            Open Everyday 11 AM - 8 PM
+            Open Everyday<br/> 11 AM - 8 PM
         </div>
     </div>
     
