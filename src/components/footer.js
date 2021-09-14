@@ -17,7 +17,7 @@ const Footer = () => {
             </a>
         </div>
         <div id ="footertext">
-            Open Everyday 11 AM - 8 PM at 286 Route 46 Rockaway, NJ 07866
+            Open Everyday 11 AM - 8 PM
         </div>
     </div>
     
