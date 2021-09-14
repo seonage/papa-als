@@ -232,13 +232,15 @@ body {
 }
 
 #footertext {
-  float: right;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.2em;
   color: $secondary-color;
   font-size: 2em;
-  font-family: cursive;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  top: 0.5em;
-  right: 1em;
+  top: 3em;
 }
 
 
@@ -452,9 +454,7 @@ a:hover{
   }
 
   #footer {
-    background-color: $primary-color;
     width: 99%;
-    //padding: 0.5em;
     border-radius: 0.2em;
     display: block;
     position: relative;
@@ -462,16 +462,15 @@ a:hover{
   }
 
   #footertext {
-    float: right;
+    text-align: center;
     background-color: white;
     border-radius: 0.2em;
     color: $secondary-color;
     font-size: 2em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 0.5em;
-    right: 2em;
+    //position: relative;
+    top: 3em;
   }
 
 }
