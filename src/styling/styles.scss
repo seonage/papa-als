@@ -454,7 +454,8 @@ a:hover{
   #footer {
     background-color: $primary-color;
     width: 99%;
-    padding: 0.5em;
+    //padding: 0.5em;
+    border-radius: 0.2em;
     display: block;
     position: relative;
     top: 2em;
@@ -462,13 +463,16 @@ a:hover{
 
   #footertext {
     float: right;
+    background-color: white;
+    border-radius: 0.2em;
+    //padding: 0.1em;
     color: $secondary-color;
     font-size: 3em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 0.5em;
-    left: 0.25em;
+    left: 0.2em;
   }
 
 }
