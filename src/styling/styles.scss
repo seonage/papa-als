@@ -334,6 +334,22 @@ a:hover{
     width: 100%;
     margin: 5em auto;
   }
+
+  #addressbox {
+    background: $secondary-color;
+    width: 50%;
+    height: 8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    padding: 2em;
+    border-radius: 1em;
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+  }
   
 
 }
