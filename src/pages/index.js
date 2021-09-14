@@ -13,7 +13,7 @@ const IndexPage = () => {
         <div id="addressbox">
           286 Route 46<br/>
           Rockaway, NJ 07866<br/>
-          (201)-575-0599<br/>
+          <div id="phonenumber">(201)-575-0599</div>
           <a href="https://chicken-and-waffles-rockaway-nj.square.site/">
             <div class="order">Order</div>
           </a>
