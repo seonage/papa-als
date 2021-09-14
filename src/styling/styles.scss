@@ -351,5 +351,116 @@ a:hover{
     font-family: cursive;
   }
   
+  #foodphilosophylogo {
+    width: 90%;
+    padding: 4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+  }
+
+  .yellowstripe {
+    background: $primary-color;
+    width: 99%;
+    height: 4em;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    margin-top: 1em;
+  }
+
+  #chickenimg {
+    display: inline-block;
+    border: 0.5em solid $secondary-color;
+    padding: 2em;
+    background-color: white;
+    margin-right: 2em;
+    position: relative;
+    bottom: 0.5em;
+  }
+
+  #chickenimgtext {
+    background: $secondary-color;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 2em;
+    position: relative;
+    bottom: 0.2em;
+  }
+
+  #storeimg {
+    display: inline-block;
+    border: 0.5em solid $secondary-color;
+    padding: 2em;
+    background-color: white;
+    margin-right: 2em;
+    position: relative;
+    bottom: 0.25em;
+  }
+
+  #storeimgtext{
+    background: $secondary-color;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 2em;
+    position: relative;
+    //bottom: 0.2em;
+  }
+
+  #chefshatimg {
+    display: inline-block;
+    border: 0.5em solid $secondary-color;
+    padding: 2em;
+    background-color: white;
+    margin-right: 2em;
+    position: relative;
+    top: 0.2em;
+  }
+
+  #chefshatimgtext {
+    background: $secondary-color;
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+    position: relative;
+    top: 0.5em;
+  }
+
+  #footer {
+    background-color: $primary-color;
+    width: 99%;
+    padding: 0.5em;
+    display: block;
+    position: relative;
+    top: 2em;
+    //margin-left: 0.5em;
+  }
+
+  #footertext {
+    float: right;
+    color: $secondary-color;
+    font-size: 2em;
+    font-family: cursive;
+    position: relative;
+    top: 0.5em;
+    left: 0.25em;
+  }
 
 }
