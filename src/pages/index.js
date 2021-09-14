@@ -25,7 +25,7 @@ const IndexPage = () => {
         <div id="chickenimgcontainer">
           <div class ="yellowstripe"></div>
           <div id="chickenimg"><StaticImage alt="" src="../images/chicken.jpg"/></div>
-          <div id="chickenimgtext"><div class ="boxheader">Fresh</div>All order are cooked when you order. No heat lamps here or stale chicken here!</div>
+          <div id="chickenimgtext"><div class ="boxheader">Fresh</div>All orders are cooked when you order. No heat lamps here or stale chicken here!</div>
         </div>
         <div id="storeimgcontainer">
           <div class ="yellowstripe"></div>
