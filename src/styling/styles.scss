@@ -455,10 +455,22 @@ a:hover{
 
   #footer {
     width: 99%;
+    height: 2em;
     border-radius: 0.2em;
     display: block;
     position: relative;
     top: 2em;
+    padding: 0em;
+  }
+
+  #facebook {
+    position:  relative;
+    top: 0.5em;
+  }
+
+  #instagram{
+    position:  relative;
+    top: 0.5em;
   }
 
   #footertext {
@@ -470,7 +482,6 @@ a:hover{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     //position: relative;
-    top: 3em;
+    top: 1em;
   }
-
 }
