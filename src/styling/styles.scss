@@ -41,7 +41,7 @@ body {
     font-weight: 700;
   }
 
-  #mascot {
+#mascot {
   max-width: 30%;
   min-width: 30%;
   height: auto;
@@ -79,7 +79,7 @@ body {
 #addressbox {
   background: $secondary-color;
   width: 20%;
-  height: 8em;
+  //height: 10em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -103,9 +103,10 @@ body {
   background-color: $primary-color;
   width: 90%;
   border-radius: 1em;
-  margin: 1em;
-  padding: 0.5em;
+  //margin: 1em;
+  padding: 0.2em;
   text-align: center;
+  font-size: 2em;
   font-weight: 700;
   font-family: $font-stack;
   color: darkslategray;
@@ -455,7 +456,7 @@ a:hover{
 
   #footer {
     width: 99%;
-    height: 2em;
+    height: 2.5em;
     border-radius: 0.2em;
     display: block;
     position: relative;
@@ -464,13 +465,23 @@ a:hover{
   }
 
   #facebook {
-    position:  relative;
-    top: 0.5em;
+    position: relative;
+    bottom: 0.9em;
+    max-width: 10%;
+    min-width: 10%;
+    height: auto;
+    padding: 1em;
+    display: inline-block;
   }
 
   #instagram{
-    position:  relative;
-    top: 0.5em;
+    position: relative;
+    bottom: 0.9em;
+    max-width: 10%;
+    min-width: 10%;
+    height: auto;
+    padding: 1em;
+    display: inline-block;
   }
 
   #footertext {
