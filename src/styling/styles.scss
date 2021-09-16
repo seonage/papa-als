@@ -369,6 +369,10 @@ a:hover{
     margin-bottom: 3em;
   }
 
+  #itemsdisplay {
+    display: none;
+  }
+
   .yellowstripe {
     background: $primary-color;
     width: 99%;
