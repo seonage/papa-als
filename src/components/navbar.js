@@ -39,8 +39,8 @@ const Navbar = () => {
               <ul>
                 <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
                 <li><Link to="/">Menu</Link></li>
-                <li><Link to="/">Location</Link></li>
-                <li><Link to="/">About Us</Link></li>
+                <li><Link to="#addressbox">Location</Link></li>
+                <li><Link to="#foodphilosophysection">About Us</Link></li>
               </ul>
             </div>
           </div>
