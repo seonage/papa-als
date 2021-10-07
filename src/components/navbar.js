@@ -24,7 +24,9 @@ const Navbar = () => {
     return (
     <div>
       <nav id="navbar">
+      <a href="/">
         <div id="headerlogo"><StaticImage alt="" src="../images/papaals.png"/></div>
+      </a>
             <ul>
               <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
               <li><Link to="/menu">Menu</Link></li>
@@ -33,7 +35,9 @@ const Navbar = () => {
           </ul>
       </nav>
       <div id="mobile-menu">
-      <div id="headerlogo"><StaticImage alt="" src="../images/papaals.png"/></div>
+      <a href="/">
+        <div id="headerlogo"><StaticImage alt="" src="../images/papaals.png"/></div>
+      </a>
         <div id="toggleMenuOpen"> 
           <div id="menuIconOpen" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
             <div id="dropDownMenu">
