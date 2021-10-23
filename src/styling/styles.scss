@@ -91,14 +91,10 @@ body {
   font-family: cursive;
 }
 
-#itemsdisplay {
+#familymeals{
   display: block;
   width: 75%;
   margin: 5em auto;
-}
-
-#tenders {
-  display: none;
 }
 
 .order {
@@ -395,7 +391,7 @@ a:hover{
     margin-bottom: 3em;
   }
 
-  #itemsdisplay {
+  #familymeals {
     display: none;
   }
 

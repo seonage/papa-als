@@ -18,7 +18,7 @@ const IndexPage = () => {
             <div class="order">Order</div>
           </a>
         </div>
-        <div id="itemsdisplay"><StaticImage alt="" src="../images/familymeals.jpg"/></div>
+        <div id="familymeals"><StaticImage alt="" src="../images/familymeals.jpg"/></div>
       </div>
       <div id="foodphilosophysection">
         <div id="foodphilosophylogo"><StaticImage alt="" src="../images/foodphilosophy.png"/></div>
