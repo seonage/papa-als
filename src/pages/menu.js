@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Menu = () => {
   return <Layout pageTitle="Papa Al's Menu">
+    <StaticImage alt="" src="../images/familymeals.jpg"/>
     <StaticImage alt="" src="../images/menu.jpg"/>
   </Layout>
 }
