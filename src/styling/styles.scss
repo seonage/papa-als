@@ -97,6 +97,10 @@ body {
   margin: 5em auto;
 }
 
+#familymobile {
+  display: none;
+}
+
 .order {
   background-color: $primary-color;
   width: 90%;
@@ -395,7 +399,7 @@ a:hover{
     display: none;
   }
 
-  #tenders {
+  #familymobile {
     display: block;
     width: 75%;
     margin: 2em auto;

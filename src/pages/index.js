@@ -19,6 +19,7 @@ const IndexPage = () => {
           </a>
         </div>
         <div id="familymeals"><StaticImage alt="" src="../images/familymeals.jpg"/></div>
+        <div id="familymobile"><StaticImage alt="" src="../images/familymobile.jpg"/></div>
       </div>
       <div id="foodphilosophysection">
         <div id="foodphilosophylogo"><StaticImage alt="" src="../images/foodphilosophy.png"/></div>
