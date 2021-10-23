@@ -267,11 +267,6 @@ a:hover{
   background-color: dimgrey;
 }
 
-#john {
-  float: right;
-  font-size: 1em;
-}
-
 @media only screen and (max-width: 768px) {
   #mobile-menu {
     display: block;
@@ -346,11 +341,11 @@ a:hover{
     margin-right: auto;
   }
 
-  #itemsdisplay {
+  /*#itemsdisplay {
     display: block;
     width: 100%;
     margin: 5em auto;
-  }
+  }*/
 
   #addressbox {
     background: $secondary-color;
