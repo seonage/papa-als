@@ -17,7 +17,7 @@ const Footer = () => {
             </a>
         </div>
         <div id ="footertext">
-            Open Everyday Except Tuesday<br/> 11 AM - 8 PM
+            Open Every Day Except Tuesday<br/> 11 AM - 8 PM
         </div>
     </div>
     
