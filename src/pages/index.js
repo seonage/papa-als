@@ -31,7 +31,7 @@ const IndexPage = () => {
         <div id="storeimgcontainer">
           <div class ="yellowstripe"></div>
           <div id="storeimg"><StaticImage alt="" src="../images/store.jpg"/></div>
-          <div id="storeimgtext"><div class ="boxheader">Local</div>We are local to Rockaway and intergrated into the community</div>
+          <div id="storeimgtext"><div class ="boxheader">Local</div>We are local to Rockaway and integrated into the community</div>
         </div>
         <div id="chefimgcontainer">
           <div class ="yellowstripe"></div>
