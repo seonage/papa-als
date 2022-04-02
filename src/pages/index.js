@@ -14,7 +14,7 @@ const IndexPage = () => {
           286 Route 46<br/>
           Rockaway, NJ 07866<br/>
           <div id="phonenumber">(201)-574-0599</div>
-          <a href="https://chicken-and-waffles-rockaway-nj.square.site/">
+          <a href="https://papaalschicken.square.site/">
             <div class="order">Order</div>
           </a>
         </div>
