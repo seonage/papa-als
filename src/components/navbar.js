@@ -28,7 +28,7 @@ const Navbar = () => {
         <div id="headerlogo"><StaticImage alt="" src="../images/papaals.png"/></div>
       </a>
             <ul>
-              <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
+              <li><a href="https://papaalschicken.square.site/">Order</a></li>
               <li><Link to="/menu">Menu</Link></li>
               <li><Link to="../#addressbox">Location</Link></li>
               <li><Link to="../#foodphilosophysection">About Us</Link></li>
@@ -42,7 +42,7 @@ const Navbar = () => {
           <div id="menuIconOpen" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
             <div id="dropDownMenu">
               <ul>
-                <li><a href="https://chicken-and-waffles-rockaway-nj.square.site/">Order</a></li>
+                <li><a href="https://papaalschicken.square.site/">Order</a></li>
                 <li><Link to="/menu">Menu</Link></li>
                 <li><Link to="../#addressbox">Location</Link></li>
                 <li><Link to="../#foodphilosophysection">About Us</Link></li>
